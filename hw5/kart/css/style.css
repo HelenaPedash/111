@@ -1,0 +1,26 @@
+.wrapper {
+	width: 510px;
+	height: 540px;
+	margin: 20px auto;
+	border: 1px solid black; 
+}
+table {
+	width: 100%;
+}
+tr {
+	border-bottom: 11px solid black;
+	height: 25px; 
+
+}
+td {
+	width: 25px;
+	
+}
+.rborder{
+	border-right: 11px solid transparent;
+	
+}
+td .l_b {
+	border-left: 11px solid black;
+	border-right: 11px solid transparent;
+}

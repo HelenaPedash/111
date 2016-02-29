@@ -1,156 +1,145 @@
 body {
-	background-image: img/bgbody.jpg repeat-x;
-
+	background: url(../img/bgbody.jpg) repeat-x;
 	background-color: #108eae;
+	font-family: "Tahoma Regular", Arial, sans-serif;
 }
 
+.wrapper {
+	width: 1000px;
+	margin: 0px auto;
+	background-color: #ffffff;
+	height: 100%;
+	box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+}
+.logo img {
+	float: left;
+	padding-left: 26px;
+	border: none;
+}
+.logo a {
+	text-decoration: none;
+	position: absolute;
+	top: 90px;
+	left: 240px;
+	color: #128aa7;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.contact {
+	float: right;
+	color: #128aa7;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.tel {
+	float: right;
+	font-size: 12px;
+	padding-right: 0px;
+}
+.stroka {	
+	padding-top: 70px;
+	}
+.stroka ul li {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	}
+.stroka a{
+       font-size: 10px;
+       color: #128aa7;
+       text-decoration: none;
+      }
+.stroka img{
+    width: 39px;
+    border: none;
+}
+.foto img {
+	border: 1px solid #128aa7;
+	display: block;
+	width: 1000px;
+	clear: both;
+}
+.nav {
+  display: block;
+  background: #343434;
+  font-size: 0;
+}
+.topmenu>li {
+    display: inline-block;
+    width:14.286%;
+    text-align: center;
+}
+.topmenu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+}
+.submenu {
+	display: none;
+	width: 12%;
+	text-align: left;
+}
+.point:hover .submenu{
+ display: block;
+ position: absolute;
+ background: #343434;
+ box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.6);
+ left: 25%;
+  }
+ .point>a {
+ 	position: relative;
+ }
+ .point>a::after {
+ 	content: " ";
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid #ffffff;
+    top: 40%;
+    right: 10%;
+    }
 .fon {
-02
-	width: 650px;
-03
-	overflow: hidden; /* чтобы лишее обрезалось */
-04
-	}
-05
-	.leftColumn {
-06
-	width: 200px;
-07
+	overflow: hidden;
+	padding-top: 0;
+	width: 100%;
+}
+.left {
 	float: left;
-08
-	background: #3d2af0;
-09
+	width: 20%;
+	background: #edeef0;
+	/*border: 1px solid #c7cacf;*/
 	padding-bottom: 20000px;
-10
 	margin-bottom: -20000px;
-11
 	}
-12
-	.centerColumn {
-13
-	width: 200px;
-14
+	 .center {
 	float: left;
-15
-	background: #e34456;
-16
+	width: 60%;
+	background: #ffffff;
 	padding-bottom: 20000px;
-17
 	margin-bottom: -20000px;
-18
 	}
-19
-	.rightColumn {
-20
-	width: 250px;
-21
+.right{
 	float: left;
-22
-	background: #e3e244;
-23
+	width: 20%;
+	background: #edeef0;
+	/*border: 1px solid #c7cacf;*/
 	padding-bottom: 20000px;
-24
 	margin-bottom: -20000px;
-25
-	}
+    }
+   
 
-
-
-	
-
-	.navigation {
-02
-	    list-style: none; /* прячем маркеры */
-03
-	    margin: 30px;
-04
-	}
-05
-	.navigation li {
-06
-	    float: left; /* выстраиваем элементы списка в один ряд */
-07
-	    margin-right: 15px; /* делаем отступ чтобы пункты меню не сливались */
-08
-	}
-09
-	.navigation li a {
-10
-	    display: block;
-11
-	    text-align: center;
-12
-	    padding-top: 100px; /* внутренний остту чтобы текст был вне фона */
-13
-	    color: #ff0000;
-14
-	    background-position: center top; /* выравниваем фон вверх и по центру */
-15
-	    background-repeat: no-repeat;
-16
-	    width: 200px; /* размеры указываем чтобы картинки полностью отобразились */
-17
-	    height: 50px;
-18
-	}
-19
-	* html .navigation li a { /* хак для IE6, который иначе трактует блочную модель */
-20
-	    height: 150px;
-21
-	}
-22
-	.navigation .chrysler a {
-23
-	    background-image: url(path-to/menu-chrysler.jpg);
-24
-	}
-25
-	.navigation .audi a {
-26
-	    background-image: url(path-to/menu-audi.jpg);
-27
-	}
-28
-	.navigation .bugatti a {
-29
-	    background-image: url(path-to/menu-bugatti.jpg);
-30
-	}
-31
-	.navigation li a:hover {
-32
-	    color: #0000CC;
-33
-	}
+.zag {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+/*.footer {
+	clear: both;
+	text-align: center;
+	color: #ffffff;
+	padding: 1%;
+}*/
